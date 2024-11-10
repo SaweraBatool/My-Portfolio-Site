@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    body{
+        color: rgba(40, 52, 50, 0.9); 
+        background: linear-gradient(to right, #d3f8e2, #e4c1f9, #ffdde1);
+    }
+}
+
+@layer components{
+    .menuLink{
+        @apply cursor-pointer hover:text-[darkgrey]
+    }
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  
