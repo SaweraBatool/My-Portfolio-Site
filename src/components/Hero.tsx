@@ -13,15 +13,15 @@ const Hero = () => {
       }}
     >
       <Navbar />
-      <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent opacity-20'></div>
-      <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)] relative z-10'>
-        <div className='hidden lg:block'></div>
-        <div className='text-[80px] sm:text-[75px] font-bold leading-tight text-white flex justify-center items-center'>
-          <div>
-            <p className="text-xl mb-4" data-aos="fade-up">Hey there,</p>
-            <p className="text-4xl mb-4" data-aos="fade-up">Welcome to My Portfolio</p>
-            <p className="text-xl mb-4" data-aos="fade-up">I'm</p>
-            <p className="text-4xl" data-aos="fade-up">Sawera Batool</p>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent opacity-50"></div>
+      <div className="container grid lg:grid-cols-2 h-[calc(100vh-60px)] relative z-10 px-4">
+        <div className="hidden lg:block"></div>
+        <div className="text-center lg:text-left text-white flex justify-center items-center">
+          <div className="space-y-4">
+            <p className="text-2xl lg:text-xl" data-aos="fade-up">Hey there,</p>
+            <p className="text-3xl lg:text-4xl font-bold mb-4" data-aos="fade-up">Welcome to My Portfolio</p>
+            <p className="text-2xl lg:text-xl mb-4" data-aos="fade-up">I'm</p>
+            <p className="text-4xl lg:text-5xl font-bold" data-aos="fade-up">Sawera Batool</p>
           </div>
         </div>
       </div>
